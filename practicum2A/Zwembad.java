@@ -25,7 +25,8 @@ public class Zwembad {
     }
     public void setLengte(double leng){
         lengte = leng;
-    }    public double getDiepte(){
+    }
+    public double getDiepte(){
         return diepte;
     }
     public void setDiepte(double deep){

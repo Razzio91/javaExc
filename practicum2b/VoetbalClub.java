@@ -33,9 +33,8 @@ public class VoetbalClub {
         aantalWedstrijden++;
     }
     public int aantalGespeeld() {
-        int totaalGespeeld = aantalGewonnen + aantalGelijk + aantalVerloren;
-        return totaalGespeeld;
-    }
+        return aantalGewonnen + aantalGelijk + aantalVerloren;
+           }
     public int aantalPunten() {
         totaalPunten = (aantalGewonnen * 3) + aantalGelijk;
         return totaalPunten;
